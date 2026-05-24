@@ -1,0 +1,81 @@
+{
+  "description": "Detection rate WITH vs WITHOUT monomial-consistency aux rows",
+  "rows": [
+    {
+      "frontend": "polynomial",
+      "include_aux": false,
+      "n": 1649,
+      "detection_rate": 0.24620982413583992,
+      "recovery_rate": 0.10491206791995149,
+      "detection_ci": [
+        0.2260225445230758,
+        0.2675767988784376
+      ],
+      "recovery_ci": [
+        0.09102848503076816,
+        0.1206321415548614
+      ],
+      "H_shape": [
+        22,
+        308
+      ]
+    },
+    {
+      "frontend": "polynomial",
+      "include_aux": true,
+      "n": 1649,
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "detection_ci": [
+        0.9976758455566361,
+        1.0
+      ],
+      "recovery_ci": [
+        0.9976758455566361,
+        1.0
+      ],
+      "H_shape": [
+        330,
+        308
+      ]
+    },
+    {
+      "frontend": "nonlinear",
+      "include_aux": false,
+      "n": 1731,
+      "detection_rate": 0.3212016175621028,
+      "recovery_rate": 0.1975736568457539,
+      "detection_ci": [
+        0.299621566181726,
+        0.3435734953308216
+      ],
+      "recovery_ci": [
+        0.1794949924174151,
+        0.21699164636067428
+      ],
+      "H_shape": [
+        91,
+        465
+      ]
+    },
+    {
+      "frontend": "nonlinear",
+      "include_aux": true,
+      "n": 1731,
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "detection_ci": [
+        0.997785700358288,
+        1.0
+      ],
+      "recovery_ci": [
+        0.997785700358288,
+        1.0
+      ],
+      "H_shape": [
+        556,
+        465
+      ]
+    }
+  ]
+}

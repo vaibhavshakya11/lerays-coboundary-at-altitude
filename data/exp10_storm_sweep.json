@@ -1,0 +1,75 @@
+{
+  "description": "Detection vs storm fraction for the linear frontend, to verify framework holds under bursty regimes",
+  "rows": [
+    {
+      "storm_fraction": 0.1,
+      "n_events": 212,
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "detection_ci": [
+        0.9822024052205588,
+        0.9999999999999999
+      ],
+      "recovery_ci": [
+        0.9822024052205588,
+        0.9999999999999999
+      ]
+    },
+    {
+      "storm_fraction": 0.25,
+      "n_events": 721,
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "detection_ci": [
+        0.9947002771793102,
+        1.0
+      ],
+      "recovery_ci": [
+        0.9947002771793102,
+        1.0
+      ]
+    },
+    {
+      "storm_fraction": 0.5,
+      "n_events": 1334,
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "detection_ci": [
+        0.9971286143097402,
+        1.0
+      ],
+      "recovery_ci": [
+        0.9971286143097402,
+        1.0
+      ]
+    },
+    {
+      "storm_fraction": 0.75,
+      "n_events": 1587,
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "detection_ci": [
+        0.9975852660870795,
+        0.9999999999999999
+      ],
+      "recovery_ci": [
+        0.9975852660870795,
+        0.9999999999999999
+      ]
+    },
+    {
+      "storm_fraction": 0.9,
+      "n_events": 1724,
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "detection_ci": [
+        0.9977767295714064,
+        1.0
+      ],
+      "recovery_ci": [
+        0.9977767295714064,
+        1.0
+      ]
+    }
+  ]
+}

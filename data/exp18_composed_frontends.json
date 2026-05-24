@@ -1,0 +1,95 @@
+{
+  "description": "Spacecraft attitude controller protected by linear, polynomial, or composed sheaf; four fault scenarios.",
+  "n_iters": 8,
+  "H_lin_shape": [
+    56,
+    63
+  ],
+  "H_pol_shape": [
+    144,
+    135
+  ],
+  "H_comp_shape": [
+    200,
+    198
+  ],
+  "n_trials_per_scenario": 1000,
+  "results": [
+    {
+      "scenario": "quat_bitflip",
+      "n": 1000,
+      "linear_only_rate": 0.782,
+      "polynomial_only_rate": 0.739,
+      "composed_rate": 0.793,
+      "linear_only_ci": [
+        0.7553565227948386,
+        0.8064851854193084
+      ],
+      "polynomial_only_ci": [
+        0.7109019937060769,
+        0.7652688157378277
+      ],
+      "composed_ci": [
+        0.7667904475082261,
+        0.8169670720192386
+      ]
+    },
+    {
+      "scenario": "rate_bitflip",
+      "n": 1000,
+      "linear_only_rate": 0.667,
+      "polynomial_only_rate": 0.0,
+      "composed_rate": 0.667,
+      "linear_only_ci": [
+        0.6371997660141808,
+        0.6955220966516438
+      ],
+      "polynomial_only_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "composed_ci": [
+        0.6371997660141808,
+        0.6955220966516438
+      ]
+    },
+    {
+      "scenario": "quat_swap",
+      "n": 1000,
+      "linear_only_rate": 1.0,
+      "polynomial_only_rate": 1.0,
+      "composed_rate": 1.0,
+      "linear_only_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "polynomial_only_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "composed_ci": [
+        0.996173241514445,
+        1.0
+      ]
+    },
+    {
+      "scenario": "burst",
+      "n": 1000,
+      "linear_only_rate": 0.975,
+      "polynomial_only_rate": 0.689,
+      "composed_rate": 0.995,
+      "linear_only_ci": [
+        0.9633547107321566,
+        0.9830098687065659
+      ],
+      "polynomial_only_ci": [
+        0.6596320732865386,
+        0.7169214120059215
+      ],
+      "composed_ci": [
+        0.9883490446266249,
+        0.9978624644726756
+      ]
+    }
+  ]
+}

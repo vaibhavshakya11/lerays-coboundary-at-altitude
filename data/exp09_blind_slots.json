@@ -1,0 +1,35 @@
+{
+  "description": "Number of lifted slots unconstrained by algebraic invariants",
+  "rows": [
+    {
+      "frontend": "polynomial",
+      "lifted_dim_per_iter": 28,
+      "n_cols": 308,
+      "blind_cols_no_aux": 231,
+      "blind_cols_with_aux": 0,
+      "H_shape_no_aux": [
+        22,
+        308
+      ],
+      "H_shape_with_aux": [
+        330,
+        308
+      ]
+    },
+    {
+      "frontend": "nonlinear",
+      "lifted_dim_per_iter": 15,
+      "n_cols": 465,
+      "blind_cols_no_aux": 310,
+      "blind_cols_with_aux": 0,
+      "H_shape_no_aux": [
+        91,
+        465
+      ],
+      "H_shape_with_aux": [
+        556,
+        465
+      ]
+    }
+  ]
+}
