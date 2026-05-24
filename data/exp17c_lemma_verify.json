@@ -1,0 +1,69 @@
+{
+  "description": "Verification of dead-variable lemma: rank(H_v) == k_v - dead_count(v) for every vertex of the structured linear-frontend H.",
+  "n_random_programs": 2000,
+  "total_vertices": 26153,
+  "lemma_matches": 25559,
+  "lemma_pass_rate": 0.9772875004779566,
+  "lemma_ci": [
+    0.9754105380972448,
+    0.9790242715988328
+  ],
+  "dead_distribution": {
+    "0": 25080,
+    "1": 894,
+    "2": 174,
+    "3": 5
+  },
+  "mismatch_examples": [
+    {
+      "v": 0,
+      "dead": 0,
+      "rank": 1,
+      "expected": 2,
+      "H_v_shape": [
+        2,
+        2
+      ]
+    },
+    {
+      "v": 0,
+      "dead": 0,
+      "rank": 3,
+      "expected": 5,
+      "H_v_shape": [
+        5,
+        5
+      ]
+    },
+    {
+      "v": 0,
+      "dead": 0,
+      "rank": 2,
+      "expected": 3,
+      "H_v_shape": [
+        3,
+        3
+      ]
+    },
+    {
+      "v": 0,
+      "dead": 0,
+      "rank": 4,
+      "expected": 5,
+      "H_v_shape": [
+        5,
+        5
+      ]
+    },
+    {
+      "v": 0,
+      "dead": 0,
+      "rank": 2,
+      "expected": 3,
+      "H_v_shape": [
+        3,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "description": "Statistical frontend at production state dim, 60 streams x 4h windows, n_events > 1000 target",
+  "results": {
+    "n": 1876,
+    "det": 1561,
+    "rec": 1561,
+    "fp": 0,
+    "fp_trials": 4300,
+    "by_class": {
+      "value": {
+        "n": 1724,
+        "det": 1409,
+        "rec": 1409,
+        "detection_rate": 0.8172853828306265,
+        "recovery_rate": 0.8172853828306265,
+        "detection_ci": [
+          0.7983454289456667,
+          0.8348145142974416
+        ]
+      },
+      "sefi": {
+        "n": 113,
+        "det": 113,
+        "rec": 113,
+        "detection_rate": 1.0,
+        "recovery_rate": 1.0,
+        "detection_ci": [
+          0.967122467834048,
+          1.0
+        ]
+      },
+      "latch": {
+        "n": 39,
+        "det": 39,
+        "rec": 39,
+        "detection_rate": 1.0,
+        "recovery_rate": 1.0,
+        "detection_ci": [
+          0.9103331462924287,
+          1.0
+        ]
+      }
+    },
+    "by_bitwidth": {
+      "1": {
+        "n": 1137,
+        "det": 881,
+        "rec": 881
+      },
+      "3": {
+        "n": 182,
+        "det": 169,
+        "rec": 169
+      },
+      "2": {
+        "n": 294,
+        "det": 253,
+        "rec": 253
+      },
+      "5": {
+        "n": 85,
+        "det": 84,
+        "rec": 84
+      },
+      "4": {
+        "n": 120,
+        "det": 116,
+        "rec": 116
+      },
+      "6": {
+        "n": 26,
+        "det": 26,
+        "rec": 26
+      },
+      "8": {
+        "n": 12,
+        "det": 12,
+        "rec": 12
+      },
+      "7": {
+        "n": 20,
+        "det": 20,
+        "rec": 20
+      }
+    },
+    "by_common_mode": {
+      "common_mode": {
+        "n": 104,
+        "det": 78,
+        "rec": 78
+      },
+      "independent": {
+        "n": 1772,
+        "det": 1483,
+        "rec": 1483
+      }
+    },
+    "detection_rate": 0.832089552238806,
+    "recovery_rate": 0.832089552238806,
+    "fpr": 0.0,
+    "detection_ci": [
+      0.8145002357988697,
+      0.8483216176895995
+    ],
+    "recovery_ci": [
+      0.8145002357988697,
+      0.8483216176895995
+    ],
+    "fpr_ci": [
+      5.421010862427522e-20,
+      0.000892565132207898
+    ],
+    "spec_summary": {
+      "k_v": 40,
+      "k_e": 32,
+      "H_shape": [
+        32,
+        40
+      ],
+      "n_invariants": 32,
+      "state_dim": 40,
+      "manifold_dim": 8,
+      "clean_residual": 0.05449632514014426
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "description": "LDPC separation (vertex-block-swap fault) across multiple (graph, k_v, k_e) configurations",
+  "rows": [
+    {
+      "name": "cycle-6 kv=4",
+      "k_v": 4,
+      "k_e": 2,
+      "n_vertices": 6,
+      "n_trials": 1000,
+      "sheaf_rate": 1.0,
+      "ldpc_xor_rate": 0.0,
+      "ldpc_plane_rate": 0.0,
+      "sheaf_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "ldpc_xor_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "ldpc_plane_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ]
+    },
+    {
+      "name": "cycle-10 kv=4",
+      "k_v": 4,
+      "k_e": 2,
+      "n_vertices": 10,
+      "n_trials": 1000,
+      "sheaf_rate": 1.0,
+      "ldpc_xor_rate": 0.0,
+      "ldpc_plane_rate": 0.0,
+      "sheaf_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "ldpc_xor_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "ldpc_plane_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ]
+    },
+    {
+      "name": "cycle-20 kv=4",
+      "k_v": 4,
+      "k_e": 2,
+      "n_vertices": 20,
+      "n_trials": 1000,
+      "sheaf_rate": 1.0,
+      "ldpc_xor_rate": 0.0,
+      "ldpc_plane_rate": 0.0,
+      "sheaf_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "ldpc_xor_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "ldpc_plane_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ]
+    },
+    {
+      "name": "cycle-10 kv=3",
+      "k_v": 3,
+      "k_e": 2,
+      "n_vertices": 10,
+      "n_trials": 1000,
+      "sheaf_rate": 1.0,
+      "ldpc_xor_rate": 0.0,
+      "ldpc_plane_rate": 0.0,
+      "sheaf_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "ldpc_xor_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "ldpc_plane_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ]
+    },
+    {
+      "name": "cycle-10 kv=5",
+      "k_v": 5,
+      "k_e": 2,
+      "n_vertices": 10,
+      "n_trials": 1000,
+      "sheaf_rate": 1.0,
+      "ldpc_xor_rate": 0.0,
+      "ldpc_plane_rate": 0.0,
+      "sheaf_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "ldpc_xor_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "ldpc_plane_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ]
+    },
+    {
+      "name": "cycle-10 kv=4 ke=3",
+      "k_v": 4,
+      "k_e": 3,
+      "n_vertices": 10,
+      "n_trials": 1000,
+      "sheaf_rate": 1.0,
+      "ldpc_xor_rate": 0.0,
+      "ldpc_plane_rate": 0.0,
+      "sheaf_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "ldpc_xor_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "ldpc_plane_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ]
+    },
+    {
+      "name": "path-10 kv=4",
+      "k_v": 4,
+      "k_e": 2,
+      "n_vertices": 10,
+      "n_trials": 1000,
+      "sheaf_rate": 1.0,
+      "ldpc_xor_rate": 0.0,
+      "ldpc_plane_rate": 0.0,
+      "sheaf_ci": [
+        0.996173241514445,
+        1.0
+      ],
+      "ldpc_xor_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "ldpc_plane_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ]
+    }
+  ]
+}

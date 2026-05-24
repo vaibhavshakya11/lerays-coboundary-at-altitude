@@ -1,0 +1,721 @@
+{
+  "description": "Six frontends, fault-stream evaluation, 10 streams per frontend, 4h window each",
+  "results": {
+    "linear": {
+      "n": 542,
+      "det": 542,
+      "rec": 542,
+      "fp": 0,
+      "fp_trials": 1000,
+      "by_class": {
+        "value": {
+          "n": 500,
+          "det": 500,
+          "rec": 500,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.9923756595384479,
+            1.0
+          ]
+        },
+        "sefi": {
+          "n": 29,
+          "det": 29,
+          "rec": 29,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.8830302015002593,
+            1.0
+          ]
+        },
+        "latch": {
+          "n": 13,
+          "det": 13,
+          "rec": 13,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.7719046276458016,
+            0.9999999999999999
+          ]
+        }
+      },
+      "by_bitwidth": {
+        "3": {
+          "n": 44,
+          "det": 44,
+          "rec": 44
+        },
+        "2": {
+          "n": 87,
+          "det": 87,
+          "rec": 87
+        },
+        "1": {
+          "n": 326,
+          "det": 326,
+          "rec": 326
+        },
+        "5": {
+          "n": 29,
+          "det": 29,
+          "rec": 29
+        },
+        "6": {
+          "n": 11,
+          "det": 11,
+          "rec": 11
+        },
+        "8": {
+          "n": 5,
+          "det": 5,
+          "rec": 5
+        },
+        "4": {
+          "n": 36,
+          "det": 36,
+          "rec": 36
+        },
+        "7": {
+          "n": 4,
+          "det": 4,
+          "rec": 4
+        }
+      },
+      "by_common_mode": {
+        "common_mode": {
+          "n": 27,
+          "det": 27,
+          "rec": 27
+        },
+        "independent": {
+          "n": 515,
+          "det": 515,
+          "rec": 515
+        }
+      },
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "fpr": 0.0,
+      "detection_ci": [
+        0.9929623176132615,
+        1.0
+      ],
+      "recovery_ci": [
+        0.9929623176132615,
+        1.0
+      ],
+      "fpr_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "spec_summary": {
+        "k_v": 4,
+        "k_e": 4,
+        "H_shape": [
+          120,
+          124
+        ],
+        "n_invariants": 120,
+        "clean_residual": 4.142903199826904e-16
+      }
+    },
+    "polynomial": {
+      "n": 973,
+      "det": 973,
+      "rec": 973,
+      "fp": 0,
+      "fp_trials": 1000,
+      "by_class": {
+        "value": {
+          "n": 910,
+          "det": 910,
+          "rec": 910,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.9957963618485296,
+            1.0
+          ]
+        },
+        "sefi": {
+          "n": 44,
+          "det": 44,
+          "rec": 44,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.9197043962415192,
+            1.0
+          ]
+        },
+        "latch": {
+          "n": 19,
+          "det": 19,
+          "rec": 19,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.8318207759473837,
+            1.0
+          ]
+        }
+      },
+      "by_bitwidth": {
+        "1": {
+          "n": 594,
+          "det": 594,
+          "rec": 594
+        },
+        "3": {
+          "n": 91,
+          "det": 91,
+          "rec": 91
+        },
+        "2": {
+          "n": 142,
+          "det": 142,
+          "rec": 142
+        },
+        "5": {
+          "n": 47,
+          "det": 47,
+          "rec": 47
+        },
+        "4": {
+          "n": 61,
+          "det": 61,
+          "rec": 61
+        },
+        "6": {
+          "n": 20,
+          "det": 20,
+          "rec": 20
+        },
+        "8": {
+          "n": 10,
+          "det": 10,
+          "rec": 10
+        },
+        "7": {
+          "n": 8,
+          "det": 8,
+          "rec": 8
+        }
+      },
+      "by_common_mode": {
+        "common_mode": {
+          "n": 52,
+          "det": 52,
+          "rec": 52
+        },
+        "independent": {
+          "n": 921,
+          "det": 921,
+          "rec": 921
+        }
+      },
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "fpr": 0.0,
+      "detection_ci": [
+        0.9960674695100147,
+        1.0
+      ],
+      "recovery_ci": [
+        0.9960674695100147,
+        1.0
+      ],
+      "fpr_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "spec_summary": {
+        "k_v": 28,
+        "k_e": 30,
+        "H_shape": [
+          330,
+          308
+        ],
+        "n_invariants": 330,
+        "clean_residual": 4.693893752929435e-16
+      }
+    },
+    "piecewise_linear": {
+      "n": 130,
+      "det": 130,
+      "rec": 130,
+      "fp": 0,
+      "fp_trials": 1000,
+      "by_class": {
+        "value": {
+          "n": 122,
+          "det": 122,
+          "rec": 122,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.969473821610987,
+            1.0
+          ]
+        },
+        "sefi": {
+          "n": 3,
+          "det": 3,
+          "rec": 3,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.43850296824495455,
+            1.0
+          ]
+        },
+        "latch": {
+          "n": 5,
+          "det": 5,
+          "rec": 5,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.5655175352168251,
+            1.0
+          ]
+        }
+      },
+      "by_bitwidth": {
+        "1": {
+          "n": 76,
+          "det": 76,
+          "rec": 76
+        },
+        "4": {
+          "n": 14,
+          "det": 14,
+          "rec": 14
+        },
+        "3": {
+          "n": 12,
+          "det": 12,
+          "rec": 12
+        },
+        "6": {
+          "n": 4,
+          "det": 4,
+          "rec": 4
+        },
+        "8": {
+          "n": 1,
+          "det": 1,
+          "rec": 1
+        },
+        "2": {
+          "n": 18,
+          "det": 18,
+          "rec": 18
+        },
+        "5": {
+          "n": 4,
+          "det": 4,
+          "rec": 4
+        },
+        "7": {
+          "n": 1,
+          "det": 1,
+          "rec": 1
+        }
+      },
+      "by_common_mode": {
+        "common_mode": {
+          "n": 2,
+          "det": 2,
+          "rec": 2
+        },
+        "independent": {
+          "n": 128,
+          "det": 128,
+          "rec": 128
+        }
+      },
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "fpr": 0.0,
+      "detection_ci": [
+        0.9712984388055687,
+        1.0
+      ],
+      "recovery_ci": [
+        0.9712984388055687,
+        1.0
+      ],
+      "fpr_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "spec_summary": {
+        "k_v": 1,
+        "k_e": 1,
+        "H_shape": [
+          30,
+          31
+        ],
+        "n_invariants": 30,
+        "clean_residual": 9.43689570931383e-16
+      }
+    },
+    "neural_net": {
+      "n": 168,
+      "det": 168,
+      "rec": 168,
+      "fp": 0,
+      "fp_trials": 1000,
+      "by_class": {
+        "value": {
+          "n": 157,
+          "det": 157,
+          "rec": 157,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.976116488566691,
+            0.9999999999999999
+          ]
+        },
+        "sefi": {
+          "n": 5,
+          "det": 5,
+          "rec": 5,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.5655175352168251,
+            1.0
+          ]
+        },
+        "latch": {
+          "n": 6,
+          "det": 6,
+          "rec": 6,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.6096657120978346,
+            1.0
+          ]
+        }
+      },
+      "by_bitwidth": {
+        "1": {
+          "n": 98,
+          "det": 98,
+          "rec": 98
+        },
+        "4": {
+          "n": 14,
+          "det": 14,
+          "rec": 14
+        },
+        "3": {
+          "n": 17,
+          "det": 17,
+          "rec": 17
+        },
+        "6": {
+          "n": 4,
+          "det": 4,
+          "rec": 4
+        },
+        "8": {
+          "n": 1,
+          "det": 1,
+          "rec": 1
+        },
+        "2": {
+          "n": 24,
+          "det": 24,
+          "rec": 24
+        },
+        "5": {
+          "n": 9,
+          "det": 9,
+          "rec": 9
+        },
+        "7": {
+          "n": 1,
+          "det": 1,
+          "rec": 1
+        }
+      },
+      "by_common_mode": {
+        "common_mode": {
+          "n": 4,
+          "det": 4,
+          "rec": 4
+        },
+        "independent": {
+          "n": 164,
+          "det": 164,
+          "rec": 164
+        }
+      },
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "fpr": 0.0,
+      "detection_ci": [
+        0.9776453316501321,
+        1.0
+      ],
+      "recovery_ci": [
+        0.9776453316501321,
+        1.0
+      ],
+      "fpr_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "spec_summary": {
+        "k_v": 8,
+        "k_e": 12,
+        "H_shape": [
+          36,
+          40
+        ],
+        "n_invariants": 36,
+        "clean_residual": 1.2633742285684482e-16
+      }
+    },
+    "statistical": {
+      "n": 39,
+      "det": 38,
+      "rec": 38,
+      "fp": 0,
+      "fp_trials": 1000,
+      "by_class": {
+        "value": {
+          "n": 36,
+          "det": 35,
+          "rec": 35,
+          "detection_rate": 0.9722222222222222,
+          "recovery_rate": 0.9722222222222222,
+          "detection_ci": [
+            0.8583028134672614,
+            0.9950795928601897
+          ]
+        },
+        "sefi": {
+          "n": 1,
+          "det": 1,
+          "rec": 1,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        "latch": {
+          "n": 2,
+          "det": 2,
+          "rec": 2,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.34238022750665303,
+            1.0
+          ]
+        }
+      },
+      "by_bitwidth": {
+        "1": {
+          "n": 22,
+          "det": 21,
+          "rec": 21
+        },
+        "3": {
+          "n": 3,
+          "det": 3,
+          "rec": 3
+        },
+        "4": {
+          "n": 5,
+          "det": 5,
+          "rec": 5
+        },
+        "2": {
+          "n": 6,
+          "det": 6,
+          "rec": 6
+        },
+        "5": {
+          "n": 1,
+          "det": 1,
+          "rec": 1
+        },
+        "6": {
+          "n": 2,
+          "det": 2,
+          "rec": 2
+        }
+      },
+      "by_common_mode": {
+        "common_mode": {
+          "n": 0,
+          "det": 0,
+          "rec": 0
+        },
+        "independent": {
+          "n": 39,
+          "det": 38,
+          "rec": 38
+        }
+      },
+      "detection_rate": 0.9743589743589743,
+      "recovery_rate": 0.9743589743589743,
+      "fpr": 0.0,
+      "detection_ci": [
+        0.8681900983014993,
+        0.99545929689901
+      ],
+      "recovery_ci": [
+        0.8681900983014993,
+        0.99545929689901
+      ],
+      "fpr_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "spec_summary": {
+        "k_v": 10,
+        "k_e": 7,
+        "H_shape": [
+          7,
+          10
+        ],
+        "n_invariants": 7,
+        "clean_residual": 0.03845391249068742
+      }
+    },
+    "nonlinear": {
+      "n": 1012,
+      "det": 1012,
+      "rec": 1012,
+      "fp": 0,
+      "fp_trials": 1000,
+      "by_class": {
+        "value": {
+          "n": 948,
+          "det": 948,
+          "rec": 948,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.9959641820756017,
+            1.0
+          ]
+        },
+        "sefi": {
+          "n": 44,
+          "det": 44,
+          "rec": 44,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.9197043962415192,
+            1.0
+          ]
+        },
+        "latch": {
+          "n": 20,
+          "det": 20,
+          "rec": 20,
+          "detection_rate": 1.0,
+          "recovery_rate": 1.0,
+          "detection_ci": [
+            0.8388748419471806,
+            1.0
+          ]
+        }
+      },
+      "by_bitwidth": {
+        "1": {
+          "n": 618,
+          "det": 618,
+          "rec": 618
+        },
+        "3": {
+          "n": 97,
+          "det": 97,
+          "rec": 97
+        },
+        "2": {
+          "n": 151,
+          "det": 151,
+          "rec": 151
+        },
+        "4": {
+          "n": 57,
+          "det": 57,
+          "rec": 57
+        },
+        "5": {
+          "n": 41,
+          "det": 41,
+          "rec": 41
+        },
+        "7": {
+          "n": 9,
+          "det": 9,
+          "rec": 9
+        },
+        "6": {
+          "n": 28,
+          "det": 28,
+          "rec": 28
+        },
+        "8": {
+          "n": 11,
+          "det": 11,
+          "rec": 11
+        }
+      },
+      "by_common_mode": {
+        "common_mode": {
+          "n": 52,
+          "det": 52,
+          "rec": 52
+        },
+        "independent": {
+          "n": 960,
+          "det": 960,
+          "rec": 960
+        }
+      },
+      "detection_rate": 1.0,
+      "recovery_rate": 1.0,
+      "fpr": 0.0,
+      "detection_ci": [
+        0.9962184465033019,
+        0.9999999999999998
+      ],
+      "recovery_ci": [
+        0.9962184465033019,
+        0.9999999999999998
+      ],
+      "fpr_ci": [
+        2.168404344971009e-19,
+        0.0038267584855551234
+      ],
+      "spec_summary": {
+        "k_v": 15,
+        "k_e": 3,
+        "H_shape": [
+          556,
+          465
+        ],
+        "n_invariants": 556,
+        "clean_residual": 4.443059973708341e-16
+      }
+    }
+  }
+}

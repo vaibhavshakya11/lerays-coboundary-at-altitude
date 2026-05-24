@@ -1,0 +1,90 @@
+{
+  "linear": {
+    "k_v": 4,
+    "k_e": 4,
+    "H_shape": [
+      120,
+      124
+    ],
+    "n_vertices": 31,
+    "n_passed": 31,
+    "n_failed": 0,
+    "rank_deficits": [],
+    "pass_rate": 1.0
+  },
+  "polynomial": {
+    "k_v": 28,
+    "k_e": 30,
+    "H_shape": [
+      330,
+      308
+    ],
+    "n_vertices": 11,
+    "n_passed": 11,
+    "n_failed": 0,
+    "rank_deficits": [],
+    "pass_rate": 1.0
+  },
+  "piecewise_linear": {
+    "k_v": 1,
+    "k_e": 1,
+    "H_shape": [
+      30,
+      31
+    ],
+    "n_vertices": 31,
+    "n_passed": 31,
+    "n_failed": 0,
+    "rank_deficits": [],
+    "pass_rate": 1.0
+  },
+  "neural_net": {
+    "k_v": 8,
+    "k_e": 12,
+    "H_shape": [
+      36,
+      40
+    ],
+    "n_vertices": 5,
+    "n_passed": 5,
+    "n_failed": 0,
+    "rank_deficits": [],
+    "pass_rate": 1.0
+  },
+  "statistical": {
+    "k_v": 10,
+    "k_e": 7,
+    "H_shape": [
+      7,
+      10
+    ],
+    "n_vertices": 1,
+    "n_passed": 1,
+    "n_failed": 0,
+    "rank_deficits": [],
+    "pass_rate": 1.0
+  },
+  "nonlinear": {
+    "k_v": 15,
+    "k_e": 3,
+    "H_shape": [
+      556,
+      465
+    ],
+    "n_vertices": 31,
+    "n_passed": 31,
+    "n_failed": 0,
+    "rank_deficits": [],
+    "pass_rate": 1.0
+  },
+  "synthetic_corpus": {
+    "n_trials": 1000,
+    "n_passed": 191,
+    "n_failed": 809,
+    "pass_rate": 0.191,
+    "pass_ci": [
+      0.16783693231549512,
+      0.216528004428578
+    ]
+  }
+}
